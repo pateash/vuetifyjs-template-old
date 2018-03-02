@@ -37,19 +37,12 @@
     data(){
       return {
         title:'Maffick',
-        drawer: false//this variable used for navigation drawer, default closed
+        drawer: null//this variable used for navigation drawer, default closed
       }
     }
   }
 </script>
 
 <style>
-  #toolbar{
-    /*position: fixed;*/
-    top:0px;
-    left:0px;
-    right:0px;
-    z-index: 1;
-  }
 </style>
 

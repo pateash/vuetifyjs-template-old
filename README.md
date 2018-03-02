@@ -16,3 +16,6 @@ npm run build
 npm run build --report
 
 ```
+
+## Note- 
+v0.1 could be used as a starter template for vuetify projects
