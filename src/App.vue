@@ -1,7 +1,7 @@
 <template>
-  <div id="app"> 
-      <v-app light>  
-      <toolbar-component/>     
+  <div id="app">
+      <v-app light>
+      <toolbar-component/>
       <router-view/>
       </v-app>
   </div>
