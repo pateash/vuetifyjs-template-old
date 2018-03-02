@@ -1,8 +1,7 @@
 <template>
   <div>
-    <v-content>
       <section>
-                    <!-- 
+                    <!--
               we have to use require because of following fact
               https://user-images.githubusercontent.com/9064066/35345252-2665b31a-00fd-11e8-9c71-fbd2cfd22608.png
            -->
@@ -40,7 +39,7 @@
             <div class="text-xs-center">
               <h2 class="headline">The best way to start developing</h2>
               <span class="subheading">
-                Cras facilisis mi vitae nunc 
+                Cras facilisis mi vitae nunc
               </span>
             </div>
           </v-flex>
@@ -56,9 +55,9 @@
                       <div class="headline text-xs-center">Material Design</div>
                     </v-card-title>
                     <v-card-text>
-                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
+                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -71,9 +70,9 @@
                       <div class="headline">Fast development</div>
                     </v-card-title>
                     <v-card-text>
-                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
+                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -86,9 +85,9 @@
                       <div class="headline text-xs-center">Completely Open Sourced</div>
                     </v-card-title>
                     <v-card-text>
-                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
+                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -99,7 +98,7 @@
       </section>
 
       <section>
-          <!-- 
+          <!--
               we have to use require because of following fact
               https://user-images.githubusercontent.com/9064066/35345252-2665b31a-00fd-11e8-9c71-fbd2cfd22608.png
            -->
@@ -128,9 +127,9 @@
                   <div class="headline">Company info</div>
                 </v-card-title>
                 <v-card-text>
-                  Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                  Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
+                  Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                  Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
                 </v-card-text>
               </v-card>
             </v-flex>
@@ -173,21 +172,6 @@
           </v-layout>
         </v-container>
       </section>
-
-      <v-footer class="blue darken-2">
-        <v-layout row wrap align-center>
-          <v-flex xs12>
-            <div class="white--text ml-3">
-              Made with
-              <v-icon class="red--text">favorite</v-icon>
-              by <a class="white--text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>
-              and <a class="white--text" href="https://github.com/vwxyzjn">Costa Huang</a>
-            </div>
-          </v-flex>
-        </v-layout>
-      </v-footer>
-    </v-content>
-
   </div>
 </template>
 

@@ -37,7 +37,7 @@
     data(){
       return {
         title:'Maffick',
-        drawer: null //this variable used for navigation drawer
+        drawer: false//this variable used for navigation drawer, default closed
       }
     }
   }

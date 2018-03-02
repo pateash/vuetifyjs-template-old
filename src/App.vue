@@ -1,22 +1,26 @@
 <template>
   <div id="app">
-      <v-app light>
-      <toolbar-component/>
-      <router-view/>
-      </v-app>
+    <v-app light>
+      <app-toolbar/>
+      <v-content>
+        <router-view/>
+        <app-footer></app-footer>
+      </v-content>
+    </v-app>
   </div>
 </template>
 
 <script>
-import ToolbarComponent from '@/components/toolbar'
-export default {
-  name: 'App',
-  components:{ToolbarComponent}
-}
+  import AppToolbar from '@/components/toolbar'
+  import AppFooter from '@/components/footer'
+  export default {
+    name: 'App',
+    components:{AppToolbar,AppFooter}
+  }
 </script>
 
 <style>
-#app {
-  margin-top:0em;
-}
+  #app {
+    margin-top:0em;
+  }
 </style>
