@@ -8,7 +8,7 @@
       <v-list dense>
         <v-list-tile @click="$router.push(menu.route)" v-for="menu in menu_items">
           <v-list-tile-action>
-            <v-icon>{{menu.icon}}</v-icon>
+            <v-icon large>{{'fa-'+menu.icon}}</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title>{{menu.title}}</v-list-tile-title>
@@ -17,7 +17,7 @@
       </v-list>
     </v-navigation-drawer>
     <v-toolbar fixed app>
-      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+      <v-toolbar-side-icon @click.stop="drawer = !drawer"><v-icon>fa-bars</v-icon></v-toolbar-side-icon>
       <v-toolbar-title>Maffick 2k18</v-toolbar-title>
     </v-toolbar>
   </div>
@@ -29,36 +29,36 @@
     data(){
       return {
         title:'Maffick',
-        drawer: null,//this variable used for navigation drawer, default closed
+        drawer: false,//this variable used for navigation drawer, default closed
         menu_items:[
           {
             title:'Home',
             icon:'home',
-            route:'/home'
+            route:'/'
           },
            {
               title:'Register',
-              icon:'home',
+              icon:'ticket-alt',
               route:'/register'
             },
           {
             title:'Events',
-            icon:'home',
+            icon:'calendar-alt',
             route:'/events'
           },
           {
             title:'Pronites',
-            icon:'home',
+            icon:'moon',
             route:'/pronites'
           },
           {
             title:'Contact',
-            icon:'contact_mail',
+            icon:'envelope',
             route:'/contact'
           },
            {
               title:'Team',
-              icon:'home',
+              icon:'users',
               route:'/team'
             },
         ]

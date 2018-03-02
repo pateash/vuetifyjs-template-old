@@ -1,13 +1,12 @@
 <template>
   <div id="footer">
-    <v-footer class="blue darken-2">
+    <v-footer >
         <v-layout row wrap align-center>
           <v-flex xs12>
-            <div class="white--text ml-3">
+            <div class="ml-3">
               Made with
-              <v-icon class="red--text">favorite</v-icon>
-              by <a class="white--text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>
-              and <a class="white--text" href="https://github.com/vwxyzjn">Costa Huang</a>
+              <v-icon class="red--text" small>fa-heart</v-icon>
+              by <a  href="//ashish.live" target="_blank">Ashish Patel</a>
             </div>
           </v-flex>
         </v-layout>
@@ -21,6 +20,18 @@
   }
 </script>
 
-<style>
-
+<style scoped>
+   #footer div{
+     position: absolute;
+     bottom: 0px;
+     left:0px;
+     right:0px;
+     padding:1em;
+     color:black;
+     margin-bottom: 0px;
+     text-align: center;
+   }
+  #footer a{
+     text-decoration: none;
+  }
 </style>
