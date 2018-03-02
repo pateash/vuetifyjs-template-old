@@ -1,23 +1,22 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+  <div id="app"> 
+      <v-app light>  
+      <toolbar-component/>     
+      <router-view/>
+      </v-app>
   </div>
 </template>
 
 <script>
+import ToolbarComponent from '@/components/toolbar'
 export default {
-  name: 'App'
+  name: 'App',
+  components:{ToolbarComponent}
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin-top:0em;
 }
 </style>
