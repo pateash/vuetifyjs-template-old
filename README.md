@@ -1,5 +1,4 @@
-# Maffick 2k18
-
+# VuetifyJs template
 ## Build Setup
 
 ``` bash
